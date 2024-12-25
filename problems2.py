@@ -135,7 +135,7 @@ print(reverse_sort_numbers_app2(numbers))
 def reverse_sort_names(names):
     return sorted(names, key=lambda x: x[::-1], reverse=True)
 
-names = ["swa","dev","mf","sm","shek"]
+names = ["amy","jack","bob","anna","pat"]
 print(reverse_sort_names(names))
 
 #You are given a list of tuples where each tuple contains (name, age, salary). Sort the list first by age in ascending order, and if two people have the same age, sort them by salary in descending order.
