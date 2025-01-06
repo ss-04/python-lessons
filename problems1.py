@@ -248,25 +248,6 @@ def is_sorted(arr: list) -> bool:
 arr = [7,1, 2, 3, 4, 5]
 print(is_sorted(arr))
 
-#sort integer from stdin
-def sorted_integer():
-    # Read a line of input, split by spaces, and convert to integers
-    numbers = list(map(int, input("Enter numbers separated by space: ").split()))
-    return sorted(numbers)
-
-# Example usage:
-print(sorted_integer()) 
-
-# if __name__ == '__main__':
-#     import os
-#     fptr = open(os.environ['OUTPUT_PATH'],'w')
-    
-# result = sorted_integer()
-    
-# fptr.write(' '.join(map(str, result)) + '\n')
-    
-# fptr.close()
-
  #Sample dictionary
 my_dict = {'banana': 3, 'apple': 4, 'orange': 2, 'grape': 5}
 
